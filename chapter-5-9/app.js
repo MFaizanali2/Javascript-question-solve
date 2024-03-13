@@ -60,7 +60,7 @@ document.write("4 x 10 ="," ",table*10,"<br><br>")
 
 // question-6
 var shopping = "<h1>Shopping Cart</h1>";
-document.write(shopping, "<br><br><br>");
+document.write(shopping, "<br>");
 var price1 = 650;
 document.write("Price of Item 1 is"," ",price1,"<br><br>");
 var quantity1 = 3;
@@ -77,7 +77,7 @@ document.write("Total cost of your item is"," ",total,"<br><br>");
 
 // question-7
 var mark = "<h1>Marksheet</h1>";
-document.write(mark, "<br><br><br>");
+document.write(mark, "<br>");
 var total_mark = 980;
 document.write("Total marks is"," ", total_mark,"<br><br>");
 var obtained = 804;
@@ -87,13 +87,41 @@ document.write("Percentage ="," ",per,"<br><br>");
 // question-7
 
 // question 8
-var mark = "<h1>Currency in PKR</h1>";
-document.write(mark, "<br><br><br>");
+var pkr = "<h1>Currency in PKR</h1>";
+document.write(pkr, "<br>");
+var usd = 104.80;
+var sar = 28;
+var currency = usd*10 + sar*25;
+document.write("Total currency in pkr is"," ",currency, "<br><br>");
 // question 8
 
 // question 9
-
+var add = 5;
+var add_total = (5*10)/2;
+document.write("Calculate the single expression is"," ",add_total,"<br>")
 // question 9
 
 // question 10
+var age = "<h1>Age Calculator</h1>";
+document.write(age, "<br>");
+var current_year = 2024;
+var birth_year = 2004;
+document.write("Your age is"," ",current_year-birth_year,"<br>")
+// question 10
+
+// question 11
+var Calculate = "<h1>The Lifetime Supply Calculator</h1>";
+document.write(Calculate, "<br>");
+var snack = "chocolate chip";
+document.write("Favorite snack"," ",snack,"<br>");
+var current = 15;
+document.write("current age"," ",current,"<br>");
+var maximum = 65;
+document.write("maximum age"," ",maximum,"<br>");
+var day = 3;
+document.write("amount per day"," ",day,"<br>");
+var need = (maximum-current)*day;
+console.log(need);
+document.write("You will need 150 to last you until the ripe old age of 65","<br>");
+// question 11
     // chapter 5
