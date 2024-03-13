@@ -83,7 +83,17 @@ document.write("Total marks is"," ", total_mark,"<br><br>");
 var obtained = 804;
 document.write("obtained marks is"," ", obtained,"<br><br>");
 var per = 804/100*10;
-document.write("Percentage ="," ",per);
+document.write("Percentage ="," ",per,"<br><br>");
 // question-7
 
+// question 8
+var mark = "<h1>Currency in PKR</h1>";
+document.write(mark, "<br><br><br>");
+// question 8
+
+// question 9
+
+// question 9
+
+// question 10
     // chapter 5
