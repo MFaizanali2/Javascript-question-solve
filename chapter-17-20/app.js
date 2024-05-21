@@ -1,31 +1,36 @@
-// question 1
-let multidimArray = [];
-multidimArray.push([]);
-multidimArray.push([]);
-// question 1
 
-// question 2
-var multi = [0];
-multi.push([1,2,3],"<br>");
-multi.push([1,0,1,2],"<br>");
-multi.push([2,1,0,1],"<br>");
-// multi.push([2]);
-// multi.push([3]);
-document.write(multi);
-// question 2
+// let multidimArray = [];
+// multidimArray.push([]);
+// multidimArray.push([]);
 
-// question 3
 
-// question 3
+// var multi = [0];
+// multi.push([1,2,3],"<br>");
+// multi.push([1,0,1,2],"<br>");
+// multi.push([2,1,0,1],"<br>");
+// document.write(multi);
 
-// question 4
 
-// question 4
+// for(let i = 1; i <= 10; i++){
+//     console.log(i);
+// }
 
-// question 5
 
-// question 5
+// let first = prompt("Enter Table number");
+// let second = first.length;
+//  second = prompt("Enter User length");
+// for(let i = 1; i <= second; i++){
+//     console.log(`${first} X ${i} = ${first*i}`);
+// }
 
-// question 6
 
-// question 6
+// let fruit = ["apple", "banana", "mango", "orange","strawberry"];
+// for(let i = 1; i <= fruit.length; i++){
+//     console.log(fruit[i])
+// }
+   
+
+let count =15;
+for(let i = 0; i <= count.length; i++){
+    console.log(count);
+}
